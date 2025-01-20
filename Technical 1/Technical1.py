@@ -7,7 +7,7 @@ address = input("Enter Address: ")
 course = input("Enter Course Name: ")
 yrlvl = input("Enter Year Level: ")
 
-
+print("----------------------------------------")
 print("My first name is: ", fname)
 print("My last name is: ", lname)
 print("My middle name is: ", mname)
@@ -16,3 +16,4 @@ print("My gender is: ", gender)
 print("My address is: ", address)
 print("My course name is: ", course)
 print("My year level is: ", yrlvl)
+print("----------------------------------------")
