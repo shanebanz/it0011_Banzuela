@@ -8,11 +8,9 @@ consCount = 0
 spcCount = 0
 othersCount = 0
 
-
 # they can be typed UPPERCASE or LOWERCASE
 vowels = "aeiouAEIOU"
 consonants = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ" 
-
 
 # for every character, check if it belongs to one of the options and add it to their counter var
 for char in userInput:
@@ -29,4 +27,3 @@ print("Number of vowels in user input: ", vowCount)
 print("Number of consonants in user input: ", consCount)
 print("Number of spaces in user input: ", spcCount)
 print("Number of others in user input: ", othersCount)
-        
