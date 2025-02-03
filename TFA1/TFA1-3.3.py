@@ -9,5 +9,4 @@ f = open('TFA1/students.txt', 'a+')
 f.write(formattedText.format(lastName, firstName, age, conNum, course))
 line = f.readline()
 f.close()
-
 print('Information has been saved to \'students.txt\'.')
