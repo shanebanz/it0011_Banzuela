@@ -5,7 +5,7 @@ conNum = input('Enter contact number: ')
 course = input('Enter course: ')
 
 formattedText = ('Last Name: {} \nFirst Name: {} \nAge: {} \nContact Number: {} \nCourse: {} \n')
-f = open('TFA1/students.txt', 'a+')
+f = open('TFA2/students.txt', 'a+')
 f.write(formattedText.format(lastName, firstName, age, conNum, course))
 line = f.readline()
 f.close()
