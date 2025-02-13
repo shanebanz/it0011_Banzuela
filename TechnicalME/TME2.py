@@ -3,8 +3,8 @@ months = {
     "07": "July", "08": "August", "09": "September", "10": "October", "11": "November", "12": "December"
 }
 
-date_input = input("Enter the date (mm/dd/yyyy): ")
-mm, dd, yyyy = date_input.split('/')
+get_date = input("Enter the date (mm/dd/yyyy): ")
+mm, dd, yyyy = get_date.split('/')
 
 if mm in months:
     month = months[mm]
